@@ -1,0 +1,563 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(rgb(73, 72, 72),rgb(72, 72, 180),rgb(119, 64, 73));
+    width: 100vh;
+    height: 180%;
+    
+}
+.container{
+    position: absolute;
+    height: 140%;
+    width: 90%;
+    right: 5%;
+    top: 5%;
+    
+}
+.info2{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    right: 0;
+}
+.info2::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: darken ;
+    background: rgba(0, 0, 0, .7);
+    z-index: -1;
+}
+.info3{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    right: 0%;
+    bottom: -20%;
+}
+.info3::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: darken;
+    background: rgba(0, 0, 0, .7);
+    z-index: -1;
+}
+.pic1{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 30%;
+    left: 18%;
+    top: 10%;
+    position: absolute;
+}
+.txt1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    right: 18%;
+    top: 20%;
+    position: absolute;
+}
+.name{
+    position: absolute;
+    color: white;
+    right: 27%;
+    font-size: 45px;
+    top: 20%;
+}
+.info4{
+    top: 40%;
+    padding-left: 15px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    bottom: 3%;
+    padding-right: 15px;
+}
+@media (min-width: 800px) and (max-width: 850px){
+    .nik{
+        font-size: 18px;
+    }
+    .container{
+        height: 350%;
+    }
+    .txt1{
+        right: 6%;
+        top: 10%;
+        font-size: 22px;
+    }
+    .pic1{
+        top: 3%;
+        left: 8%;
+        width: 200px;
+        height: 200px;
+    }
+    .name{
+        right: 20%;
+        font-size: 35px;
+        top: 8%;
+    }
+    .info4{
+        font-size: 1.125rem;
+        top: 17%;
+    }
+}
+@media (min-width: 850px) and (max-width: 900px){
+    .nik{
+        font-size: 21px;
+    }
+    .container{
+        height: 350%;
+    }
+    .txt1{
+        right: 10%;
+        top: 9%;
+        font-size: 23px;
+    }
+    .pic1{
+        top: 3%;
+        left: 7%;
+        width: 210px;
+        height: 210px;
+    }
+    .name{
+        font-size: 34px;
+        top: 8%;
+    }
+    .info4{
+        font-size: 21px;
+        top: 17%;
+    }
+}
+@media (min-width: 900px) and (max-width: 950px){
+    .nik{
+        font-size: 23px;
+    }
+    .container{
+        height: 350%;
+    }
+    .txt1{
+        right: 8%;
+        top: 9%;
+        font-size: 26px;
+    }
+    .pic1{
+        top: 3%;
+        left: 4%;
+        width: 230px;
+        height: 230px;
+    }
+    .name{
+        font-size: 35px;
+        top: 8%;
+    }
+    .info4{
+        font-size: 23px;
+        top: 17%;
+    }
+}
+@media (min-width: 950px) and (max-width: 1000px){
+    .nik{
+        font-size: 23px;
+    }
+    .container{
+        height: 330%;
+    }
+    .txt1{
+        right: 8%;
+        top: 11%;
+        font-size: 26px;
+    }
+    .pic1{
+        top: 4%;
+        left: 10%;
+        width: 240px;
+        height: 240px;
+    }
+    .name{
+        font-size: 38px;
+        top: 10%;
+    }
+    .info4{
+        font-size: 20px;
+        top: 17%;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1050px){
+    .nik{
+        font-size: 28.5px;
+    }
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 4%;
+        top: 9%;
+        font-size: 31px;
+    }
+    .pic1{
+        top: 5%;
+        left: 4%;
+        width: 260px;
+        height: 260px;
+    }
+    .name{
+        font-size:40px;
+        top: 8%;
+    }
+    .info4{
+        font-size: 1.625rem;
+        top: 17%;
+    }
+}
+@media (min-width: 1050px) and (max-width: 1100px){
+    .nik{
+        font-size: 30px;
+    }
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 4%;
+        top: 10%;
+        font-size: 31px;
+    }
+    .pic1{
+        top: 5%;
+        left: 8%;
+        width: 280px;
+        height: 280px;
+    }
+    .name{
+        font-size:40px;
+        top: 9%;
+    }
+    .info4{
+        font-size: 30px;
+        top: 17%;
+    }
+}
+@media (min-width: 1100px) and (max-width: 1150px){
+    .nik{
+        font-size: 32px;
+    }
+     .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 6%;
+        top: 11%;
+        font-size: 32px;
+    }
+    .pic1{
+        top: 6%;
+        left: 5%;
+        width: 290px;
+        height: 290px;
+    }
+    .name{
+        font-size:40px;
+        top: 10%;
+    }
+    .info4{
+        font-size: 32px;
+        top: 17%;
+    }
+}   
+@media (min-width: 1150px) and (max-width: 1200px){
+    .nik{
+        font-size: 34px;
+    }
+    .container{
+        height: 450%;
+    }
+    .txt1{
+        right: 4%;
+        top: 10%;
+        font-size: 35px;
+    }
+    .pic1{
+        top: 6%;
+        left: 4%;
+        width: 300px;
+        height: 300px;
+    }
+    .name{
+        font-size:42px;
+        top: 10%;
+    }
+    .info4{
+        font-size: 2.125rem;
+        top: 17%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1250px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 4%;
+        top: 11%;
+        font-size: 38px;
+    }
+    .pic1{
+        top: 7%;
+        left: 4%;
+        width: 300px;
+        height: 300px;
+    }
+    .name{
+        font-size:42px;
+        top: 10%;
+    }
+    .info4{
+        font-size: 34px;
+        top: 17%;
+    }
+}
+@media (min-width: 1250px) and (max-width: 1300px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 4%;
+        top: 10%;
+        font-size: 38px;
+    }
+    .pic1{
+        top: 7%;
+        left: 4%;
+        width: 310px;
+        height: 310px;
+    }
+    .name{
+        font-size:42px;
+        top: 10%;
+    }
+    .info4{
+        font-size: 2.25rem;
+        top: 17%;
+    }
+}
+@media (min-width: 1300px) and (max-width: 1350px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 4%;
+        top: 10%;
+        font-size: 39px;
+    }
+    .pic1{
+        top: 7%;
+        left: 6%;
+        width: 310px;
+        height: 310px;
+    }
+    .name{
+        font-size:44px;
+        top: 10%;
+    }
+    .info4{
+        font-size: 37px;
+        top: 17%;
+    }
+}
+@media (min-width: 1350px) and (max-width: 1400px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 5%;
+        top: 10%;
+        font-size: 39px;
+    }
+    .pic1{
+        top: 4%;
+        left: 10%;
+        width: 300px;
+        height: 300px;
+    }
+    .name{
+        font-size:45px;
+        top: 10%;
+    }
+    .info4{
+        font-size: 1.75rem;
+        top: 17%;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1450px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 6%;
+        top: 9%;
+        font-size: 38px;
+    }
+    .pic1{
+        top: 5%;    
+        left: 5%;
+        width: 350px;
+        height: 350px;
+    }
+    .name{
+        font-size:46px;
+        top: 8%;
+    }
+    .info4{
+        font-size: 2.25rem;
+        top: 17%;
+    }
+}
+@media (min-width: 1450px) and (max-width: 1500px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 5%;
+        top: 10.5%;
+        font-size: 40px;
+    }
+    .pic1{
+        top: 5%;
+        left: 10%;
+        width: 340px;
+        height: 340px;
+    }
+    .name{
+        font-size:48px;
+        top: 10%;
+    }
+    .info4{
+        font-size: 38px;
+        top: 17%;
+    }
+}
+@media (min-width: 1500px) and (max-width: 1550px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 5%;
+        top: 10%;
+        font-size: 42px;
+    }
+    .pic1{
+        top: 7%;
+        left: 10%;
+        width: 360px;
+        height: 360px;
+    }
+    .name{
+        font-size:50px;
+        top: 10%;
+    }
+    .info4{
+        font-size: 38px;
+        top: 17%;
+    }
+}
+@media (min-width: 1550px) and (max-width: 1600px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 5%;
+        top: 10%;
+            font-size: 42px;
+    }
+    .pic1{
+        top: 7%;
+        left: 10%;
+        width: 360px;
+        height: 360px;
+    }
+    .name{
+        font-size:50px;
+        top: 10%;
+   }
+    .info4{
+            font-size: 2.375rem;
+            top: 17%;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1700px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 7%;
+        top: 9%;
+        font-size: 45px;
+    }
+    .pic1{
+        top: 2%;
+        left: 5%;
+        width: 380px;
+        height: 380px;
+    }
+    .name{
+        font-size:60px;
+        top: 8%;
+   }
+    .info4{
+        font-size: 2.125rem;
+        top: 17%;
+    }
+}
+@media (min-width: 1700px) and (max-width: 1800px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 7%;
+        top: 9%;
+        font-size: 47px;
+    }
+    .pic1{
+        top: 5%;
+        left: 9%;
+        width: 380px;
+        height: 380px;
+    }
+    .name{
+        font-size:60px;
+        top: 8%;
+   }
+    .info4{
+        font-size: 25.063rem;
+        top: 17%;
+    }
+}
+@media (min-width: 1800px) and (max-width: 1920px){
+    .container{
+        height: 400%;
+    }
+    .txt1{
+        right: 7%;
+        top: 9%;
+        font-size: 47px;
+    }
+    .pic1{
+        top: 5%;
+        left: 9%;
+        width: 400px;
+        height: 400px;
+    }
+    .name{
+        font-size:60px;
+        top: 8%;
+   }
+    .info4{
+        font-size: 2.625rem;
+        top: 17%;
+    }
+}

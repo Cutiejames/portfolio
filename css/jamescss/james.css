@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../../images/jamesimages/jamesresumebg.gif);
+    width: 100vh;
+    height: 200%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+hr{
+    background-color: yellow;
+    height: 2px;
+}
+.container{
+    position: absolute;
+    width: 185%;
+    height: 93%;
+    left: 7%;
+    top: 3%;
+    padding-right: 5px;
+}
+img{
+    position: absolute;
+    width: 70%;
+    left: 17%;
+    top: 5%;
+    width: 310px;
+    height: 310px;
+    border-radius: 80%;
+    border: 20px rgba(0,0,0,0.7) solid;
+}
+.info1{
+    color: rgb(250, 250, 250);
+    position:absolute;
+    top: 30%;
+    font-size: 1.30rem;
+    padding-left: 15px;
+    line-height: 30px;
+}
+h3{
+    color: hotpink;
+}
+.box1{
+    width: 30%;
+    left: 0%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.70);
+}
+.box2{
+    background: rgba(0,0,0,0.50);
+    position: absolute;
+    width: 70%;
+    right: 0%;
+    height: 100%;
+}
+.educ{
+    color: rgb(250, 250, 250);
+    position: absolute;
+    top: 40%;
+    padding: 25px;
+    font-size: 1.30rem;
+    line-height: 25px;
+}
+.name{
+    color: rgb(250, 250, 250);
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    font-size: 2.25rem; 
+}
+.info2{
+    line-height: 27px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(250, 250, 250);
+    font-size: 1.35rem;
+    position: absolute;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: 15%;
+}
+@media (min-width: 800px) and (max-width: 900px){
+    body{
+        height: 300%;
+    }
+    .container{
+        width: 148%;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        left: 5%;
+    }
+    .info1{
+        top: 20%;
+        font-size: 1rem;
+    }
+    .educ{
+        font-size: 1rem;
+        top: 35%;
+    }
+    .info2{
+        line-height: 25px;
+        top: 9%;
+        font-size: 0.780rem;
+    }
+    .name{
+        top: 2%;
+        left: 12%;
+        font-size: 1.20rem;
+    }
+}
+@media (min-width: 900px) and (max-width: 1000px){
+    body{
+        height: 300%;
+    }
+    .container{
+        width: 145%;
+    }
+    img{
+        width: 180px;
+        height: 180px;
+        left: 5%;
+    }
+    .info1{
+        top: 20%;
+        font-size: 1.15rem;
+    }
+    .educ{
+        font-size: 1.15rem;
+        top: 35%;
+    }
+    .info2{
+        font-size: 1.15rem;
+    }
+    .name{
+        left: 15%;
+        font-size: 1.35rem;
+    }   
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+    body{
+        height: 300%;
+    }
+    .container{
+        width: 140%;
+    }
+    img{
+        top: 2%;
+        width: 200px;
+        height: 200px;
+        left: 5%;
+    }
+    .info1{
+        top: 20%;
+        font-size: 1.10rem;
+    }
+    .educ{
+        font-size: 1.45rem;
+        top: 35%;
+    }
+    .info2{
+        font-size: 1.45rem;
+    }
+    .name{
+        left: 15%;
+        font-size: 1.70rem;
+    }   
+}
+@media (min-width: 1100px) and (max-width: 1200px){
+    body{
+        height: 300%;
+    }
+    .container{
+        width: 140%;
+    }
+    img{
+        top: 2%;
+        width: 230px;
+        height: 230px;
+        left: 5%;
+    }
+    .info1{
+        top: 20%;
+        font-size: 1.45rem;
+    }
+    .educ{
+        font-size: 1.45rem;
+        top: 35%;
+    }
+    .info2{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.55rem;
+    }
+    .name{
+        left: 15%;
+        font-size: 1.70rem;
+    }   
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+    body{
+        height: 300%;
+    }
+    .container{
+        width: 127%;
+    }
+    img{
+        top: 3%;
+        width: 250px;
+        height: 250px;
+        left: 8%;
+    }
+    .info1{
+        top: 20%;
+        font-size: 1.50rem;
+    }
+    .educ{
+        font-size: 1.50rem;
+        top: 35%;
+    }
+    .info2{
+        line-height: 33px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.80rem;
+    }
+    .name{
+        left: 15%;
+        font-size: 1.70rem;
+    }
+}
+@media (min-width: 1300px) and (max-width: 1400px){
+    body{
+        height: 300%;
+    }
+    .container{
+        width: 190%;
+    }
+    img{
+        top: 3%;
+        width: 220px;
+        height: 220px;
+        left: 15%;
+    }
+    .info1{
+        top: 20%;
+        font-size: 1.50rem;
+    }
+    .educ{
+        font-size: 1.50rem;
+        top: 35%;
+    }
+    .info2{
+        top: 12%;
+        line-height: 37px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.20rem;
+    }
+    .name{
+        top: 3%;
+        left: 20%;
+        font-size: 1.60rem;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1500px){
+    body{
+        height: 300%;
+    }
+    .container{
+        width: 127%;
+    }
+    img{
+        top: 3%;
+        width: 250px;
+        height: 250px;
+        left: 8%;
+    }
+    .info1{
+        line-height: 36px;
+        top: 20%;
+        font-size: 1.50rem;
+    }
+    .educ{
+        line-height: 36px;
+        font-size: 1.50rem;
+        top: 35%;
+    }
+    .info2{
+        line-height: 38px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.90rem;
+    }
+    .name{
+        top: 4%;
+        left: 15%;
+        font-size: 1.90rem;
+    }
+}
+@media (min-width: 1500px) and (max-width: 1600px){
+    body{
+        height: 300%;
+    }
+    .container{
+        width: 190%;
+    }
+    img{
+        top: 3%;
+        width: 250px;
+        height: 250px;
+        left: 8%;
+    }
+    .info1{
+        line-height: 36px;
+        top: 20%;
+        font-size: 1.50rem;
+    }
+    .educ{
+        line-height: 36px;
+        font-size: 1.50rem;
+        top: 35%;
+    }
+    .info2{
+        top: 13%;
+        line-height: 38px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.80rem;
+    }
+    .name{
+        top: 4%;
+        left: 15%;
+        font-size: 1.90rem;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1700px){
+    body{
+        height: 300%;
+    }
+    .container{
+        width: 190%;
+    }
+    img{
+        top: 3%;
+        width: 250px;
+        height: 250px;
+        left: 8%;
+    }
+    .info1{
+        line-height: 38px;
+        top: 20%;
+        font-size: 1.50rem;
+    }
+    .educ{
+        line-height: 38px;
+        font-size: 1.50rem;
+        top: 35%;
+    }
+    .info2{
+        top: 13%;
+        line-height: 38px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.80rem;
+    }
+    .name{
+        top: 4%;
+        left: 15%;
+        font-size: 1.90rem;
+    }
+}
+@media (min-width: 1850px) and (max-width: 1950px){
+    body{
+        height: 300%;
+    }
+    .container{
+        width: 185%;
+    }
+    img{
+        top: 2%;
+        width: 330px;
+        height: 330px;
+        left: 16%;
+    }
+    .info1{
+        line-height: 38px;
+        top: 20%;
+        font-size: 1.70rem;
+    }
+    .educ{
+        line-height: 38px;
+        font-size: 1.70rem;
+        top: 35%;
+    }
+    .info2{
+        top: 13%;
+        line-height: 38px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 2rem;
+    }
+    .name{
+        top: 4%;
+        left: 20%;
+        font-size: 2.15rem;
+    }
+}
+

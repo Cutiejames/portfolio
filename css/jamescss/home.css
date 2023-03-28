@@ -1,0 +1,592 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #080808;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+#home{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,0.4) url(../../images/jamesimages/kimi.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.container{
+    padding: 25px 8%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h2{
+    font-size: 2.8125rem;
+}
+span{
+    color: hotpink;
+}
+nav ul li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5625rem;
+    position: relative;
+}
+nav ul li a::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 3px;
+    background: hotpink;
+    bottom: -6px;
+    left: 0;
+    transition: 0.3s;
+}
+nav ul li a:hover::after{
+    width: 100% ;
+}
+.box{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 16%;
+    top: 18%;
+    border-radius: 100px;
+    background-color: beige;
+    background: rgba(0,0,0,0.7);
+}
+.name{
+    position: absolute;
+    top: 25%;
+    left: 23%;
+    font-size: 8rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.txt{
+    color: rgb(255, 105, 113);
+    font-size: 3rem;
+}
+.txt2{
+    font-size: 5rem;
+    color: rgb(255, 105, 113);
+}
+h4{
+    font-size: 3rem;
+}
+a::after{
+    transition: 3s;
+}
+@media(min-width: 800px) and (max-width: 1920px){
+    h2{
+        font-size: 4vw;
+    }
+    .txt{
+        font-size: 6vw;
+    }
+    .box{
+        width: 70vw;
+    }
+    .txt2{
+        font-size: 5vw;
+    }
+    .name{
+        top: 16%;
+        left: 20%;
+        font-size: 9vw;
+    }
+    h4{
+        font-size: 4.5vw;
+    }
+    .container a{
+        font-size: 2.5vw;
+    }
+}
+/*2nd page css*/
+/*About US page*/
+#aboutus{
+    height: 100vh;
+    width: 100%;
+    background:rgba(0,0,0,0.4) url(../../images/jamesimages/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.container2{
+    left: 5%;
+    top: 108%;
+    border-radius: 80px;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+}
+.jims{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    border-radius: 80px;
+}
+.ben{
+    border-radius: 80px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 52%;
+    left: 10%;
+    object-fit: cover;
+}
+.txt1{
+    top: 25%;
+    font-size: 2.50rem;
+    position: absolute;
+    left: 35%;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.txt1 h2{
+    margin-bottom: 15px;
+}
+.txt1 h5{
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+} 
+.web{
+    color: hotpink;
+    font-size: 1.9rem;
+}
+.and{
+    color: rgb(255, 105, 113);
+    font-size: 1.9rem;
+}
+.txt1 p{
+    padding-bottom: 130px;
+}
+.txt1 a{
+    color: rgb(255, 105, 113);
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+@media (min-width: 800px) and (max-width: 1920px){
+    #aboutus{
+        height: 100vh;
+        width: 100%;
+    }
+    .container2{
+        width: 90vw;
+        height: 90vh;
+    }
+    .jims{
+        left: 8%;
+        top: 5%;
+        width: 25%;
+        height: 40%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .ben{
+        left: 8%;
+        width: 25%;
+        height: 40%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .txt1{
+        top: 8%;
+        font-size: 2.5vw;
+    }
+}
+
+/*3rd Page*/
+/*Activities Section*/
+
+#act{
+    background:rgba(0,0,0,0.5) url(../../images/jamesimages/bg2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:darken;
+    position: relative;
+}
+#act h1{
+    top: 5%;
+    position: absolute;
+    font-size: 4rem;
+    left: 40%;
+}
+.box1{
+    position: relative;
+    background: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    width: 40%;
+    height: 70%;
+    top: 20%;
+    left: 5%;
+    border-radius: 60px;
+}
+.box1 h5{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    font-size: 1.7rem;
+    line-height: 40px;
+}
+.box1 span{
+    position: absolute;
+    color: hotpink;
+    left: 0%;
+}
+.jims2{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 5%;
+    left: 5%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+.box2{
+    position: relative;
+    background: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    width: 40%;
+    height: 70%;
+    left: 55%;
+    bottom: 50%;
+    border-radius: 60px;
+}   
+.ben2{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 5%;
+    left: 5%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+.box2 h5{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    font-size: 1.7rem;
+    line-height: 40px;
+}
+.box2 span{
+    position: absolute;
+    color: rgb(255, 105, 113);
+    left: 0%;
+}
+
+/*James Profile and Tribute*/
+.profjims{
+    border: 4px solid rgb(255, 105, 113); 
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 45%;
+    left: 15%;
+    padding: 20px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+.protxt{
+    position: absolute;
+    font-size: 2rem;
+    bottom: 8%;
+    left: 22%;
+    border: 4px solid white;
+    border-radius: 60px;
+    padding: 8px;
+}
+.tritxt{
+    position: absolute;
+    font-size: 2rem;
+    bottom: 8%;
+    left: 66%;
+    border: 4px solid white;
+    border-radius: 60px;
+    padding: 8px;
+}
+.tribjims{
+    border: 4px solid rgb(255, 105, 113);
+    padding: 20px;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 45%;
+    left: 58%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+/*Ben Profile and Tribute*/
+.profben{
+    border: 4px solid rgb(255, 105, 113); 
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 45%;
+    left: 15%;
+    padding: 20px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+.protxt2{
+    position: absolute;
+    font-size: 2rem;
+    bottom: 8%;
+    left: 22%;
+    border: 4px solid white;
+    border-radius: 60px;
+    padding: 8px;
+}
+.tritxt2{
+    position: absolute;
+    font-size: 2rem;
+    bottom: 8%;
+    left: 66%;
+    border: 4px solid white;
+    border-radius: 60px;
+    padding: 8px;
+}
+.tribben{
+    border: 4px solid rgb(255, 105, 113);
+    padding: 20px;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 45%;
+    left: 58%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+@media (min-width: 800px) and (max-width: 1919px){
+    /*James Activities css*/
+    .box1{
+        width: 40vw;
+        height: 60vh;
+    }
+    .jims2{
+        border-radius: 20px;
+        top: 10%;
+    }
+    .box1 h5{
+        font-size: 2vw;
+    }
+    .protxt{
+        top: 81%;
+        font-size: 1.5vw;
+        left: 16%;
+    }
+    .profjims{
+        top: 45%;
+        left: 7%;
+        width: 9vw;
+        height: 11vh;
+        border-radius: 20px;
+    }
+    .box1 h5{
+        font-size: 2vw;
+    }
+    .tritxt{
+        top: 81%;
+        font-size: 1.5vw;
+        left: 63%;
+    }
+    .tribjims{
+        top: 45%;
+        left: 54%;
+        width: 9vw;
+        height: 11vh;
+        border-radius: 20px;
+    }
+
+    /*Ben activities css*/
+
+    .box2{
+        position: relative;
+        top: -40%;
+        width: 40vw;
+        height: 60vh;
+    }
+    .ben2{
+        border-radius: 20px;
+        top: 10%;
+    }
+    .box2 h5{
+        font-size: 2vw;
+    }
+    .protxt2{
+        top: 81%;
+        font-size: 1.5vw;
+        left: 16%;
+        position: absolute;
+    }
+    .profben{
+        top: 45%;
+        left: 7%;
+        width: 9vw;
+        height: 11vh;
+        border-radius: 20px;
+    }
+    .box2 h5{
+        font-size: 2vw;
+    }
+    .tritxt2{
+        top: 81%;
+        font-size: 1.5vw;
+        left: 63%;
+    }
+    .tribben{
+        top: 45%;
+        left: 54%;
+        width: 9vw;
+        height: 11vh;
+        border-radius: 20px;
+    }
+
+}
+
+/*Contacts*/
+/*Page Four*/
+
+#contacts{
+    background: rgba(0,0,0,0.4) url(../../images/jamesimages/bg3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.square{
+    background:rgba(0,0,0,0.5);
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 0%;
+}
+.square2{
+    background: rgba(0,0,0,0.7);
+    position: relative;
+    width: 100%;
+    height: 50%;
+    bottom: 0%;
+}
+.beninfo{
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    font-size: 2.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.callus{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    font-size: 1.3rem;
+    color: rgb(255, 105, 113);
+}
+.socmed{
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 42%;
+}
+.socmed ul li{
+    display: inline-block;
+}
+.socmed a img{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 15px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.socmed img:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+
+/*James Contacts*/
+
+.jamesinfo{
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    font-size: 2.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.callus2{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    font-size: 1.3rem;
+    color: rgb(255, 105, 113);
+}
+.socmed1{
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 42%;
+}
+.socmed1 ul li{
+    display: inline-block;
+}
+.socmed1 a img{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 15px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.socmed1 img:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+@media (min-width: 800px) and (max-width: 1024px){
+    .beninfo{
+        left: 20%;
+    }
+    .callus{
+        left: 11%;
+    }
+    .socmed{
+        left: 37%;
+    }
+
+    /*James Info*/
+
+    .jamesinfo{
+        left: 20%;
+    }
+    .callus2{
+        left: 11%;
+        padding-right: 30px;
+    }
+    .socmed1{
+        left: 37%;
+    }
+} 
